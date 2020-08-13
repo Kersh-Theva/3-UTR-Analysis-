@@ -59,4 +59,4 @@ Processed CATS-seq data was integrated with gene tables for the organism to answ
 1. What are the length distributions for primary, secondary and tertiary terminators? 
 2. What % of terminators are found intragenically in this species? 
 
-Answers to these two questions were plotted and are displayed at the top of this readme. 
+Answers to these two questions were plotted and are displayed at the top of this readme. To group terminators with genes, CATS seq reads were first averaged across triplicates and an algorithm was written to iterate through the genome and identify the 5' and 3' boundaries of CATS seq reads associated with each annotated gene. These boundaries were defined at edges where reads counts went from 0 to a positive number for 5' boundaries or vice versa for 3' boundaries. 
