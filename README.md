@@ -52,8 +52,6 @@ samtools sort forwardStrand_3_UTR_1.bam -o forwardStrand_3_UTR_1.sorted.bam
 ~~~
 **Use IGV to convert BAM file into csv file for analysis**: Using IGVtools, I made an index file for the BAM file and then converted it into a .wig file, which could then be read by Microsoft Excel and saved as a csv file.
 
-(show image of converting bam file to csv file)
-
 ## Analysis of forward and reverse strand CATS-seq data
 Processed CATS-seq data was integrated with gene tables for the organism to answer the two following  questions: <br>
 1. What are the length distributions for primary, secondary and tertiary terminators? 
