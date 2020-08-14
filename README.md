@@ -1,9 +1,12 @@
 # 3' UTR Analysis using CATS-seq data
 Developed a program to analyze 3'UTRs using raw CATS-seq data and Integrated Genome Viewer (IGV).   
 
-Main results: 
-(Insert figure here)
-(Insert figure here)
+Main results: <br>
+<img align ="center" src="https://github.com/Kersh-Theva/3-UTR-Analysis-/blob/master/TermLengthHistogram.png" width="600" height="400"> <br>
+**Figure 1. 3'UTR terminator read count vs. length for RNA from *Methanococcus maripaludis***. 3'UTRs were obtained from analysis of processed CATS-seq data. Terminators were defined as contiguous 3'UTR reads. Primary, secondary and tertiary terminators were defined by the position of the 3' boundary of the terminator with respect to the end of the gene, where primary terminators ended most closely to the end of the gene and tertiary terminators were the furthest. 
+
+<img src="https://github.com/Kersh-Theva/3-UTR-Analysis-/blob/master/IntraGene.png" width="950" height="400"> <br>
+**Figure 2. Count of intragenic and intergenic terminators for primary, secondary and tertiary terminators from *Methanococcus maripaludis*.** Count of intragenic and intergenic terminators suggests that 30% or less of terminators were found within the downstream gene for primary, secondary and tertiary terminators (Term. Number = 1.0, 2.0  or 3.0 respectively). This resembles the observed overlap of 3' terminators and downstream genes in other methanogenic species. 
 
 ## Code and Resources Used
 Python Version: 3.8.3 <br>
@@ -19,7 +22,8 @@ Thank you to UC Davis Genome Center for preparing CATS-seq libraries and perform
 ## What is CATS-Seq? 
 Capture and amplification by tailing and switching (CATS)-seq is a RNA library preparation method that involves adding polyadenylated tails to the 3' end of RNA in order to then reverse transcribe the RNA with  primers complementary to the poly-A tail. Using this approach, one can obtain sequence data for the 3' untranslated regions (3'-UTR) for mRNA molecules from bacterial or archaeal species that do not typically have polyadenylated messenger RNA. 
 
-(add picture)
+![CATS-Seq](https://github.com/Kersh-Theva/3-UTR-Analysis-/blob/master/CATS-Seq%20illustration.png) <br>
+**Figure 3. CATS-Seq Workflow** Process of RNA library preparation for the CATS-seq protocol. After polynucleotide tailing of the RNA with either poly-A polymerase or terminal deoxytransferase, followed by the use of a template-switching Moloney murine leukemia virus reverse transcriptase to extend the 3' end of a complementary poly-T containing primer and generate the first cDNA strand for downstream NGS library preparation.  (credit to Diagenode for image) 
 
 ## Data Processing Pipeline
 
