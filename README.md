@@ -13,7 +13,7 @@ Bowtie Read Aligner Version: 1.2.3 (For more information about Bowtie, check out
 Samtools Version: 1.7-1 (For more information about Samtools, check out this [link](http://samtools.sourceforge.net/)<br>
 Integrated Genome Viewer Version: 2.8.0 (For more information about IGV, check out this [link](http://software.broadinstitute.org/software/igv/)) <br>
 
-Resources that inspired this analysis: [Brenneis *et al.*.(2007). PLoS Genetics **3**: 229](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151090/), [Dar *et al.*. (2016). Nature Microbiology **1**:1-9](https://www.nature.com/articles/nmicrobiol2016143#Sec15). <br>
+Publications: [Brenneis *et al.*.(2007). PLoS Genetics **3**: 229](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151090/), [Dar *et al.*. (2016). Nature Microbiology **1**:1-9](https://www.nature.com/articles/nmicrobiol2016143#Sec15). <br>
 Thank you to UC Davis Genome Center for preparing CATS-seq RNA libraries and performing NGS using Illumina HiSeq. <br>
 
 ## What is CATS-Seq? 
